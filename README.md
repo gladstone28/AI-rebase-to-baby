@@ -20,3 +20,28 @@ Step 5: Enjoy Your Sandwich
 Now you have a nice, fresh sandwich with your delicious toppings on it. In Git, this means your feature branch has the latest updates from the main branch and includes your changes.
 
 
+### Commands to Do This:
+1. Get the Latest Bread (Update main branch):
+
+```
+git checkout main
+git pull
+
+```
+2. Put Toppings on Fresh Bread (Rebase your changes):
+
+```
+git checkout feature
+git rebase main
+```
+### Summary:
+- Main Branch = Bottom bread slice
+- Your Changes = Toppings (cheese and ham)
+- Rebase = Putting toppings on the freshest bread
+That's how you use Git Rebase, just like making a sandwich!
+
+
+
+
+
+
